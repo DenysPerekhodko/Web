@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.wrap
+{
+   margin-left:auto;
+   margin-right:auto;
+   width:50%;
+}
+.monalisa {
+    width: 75px;
+}
+.container:hover
+{
+    box-shadow: 30px 40px 10px;
+    background-color:blue;
+}
+
+.container {
+    background-color: gray;
+    border: 1px solid black;
+    padding: 20px;
+    float: left;
+}
+.container>button
+{
+    width:300px;
+    height:auto
+}
+.container>button:hover{
+    background-color:green;
+    color:red;
+}
